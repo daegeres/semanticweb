@@ -1,0 +1,81 @@
+{
+  "objects": [
+    { "name": "Petya" },
+    { "name": "Masha" },
+    { "name": "cat" },
+    { "name": "fish" },
+    { "name": "milk" },
+    { "name": "food" },
+    { "name": "human" },
+    { "name": "animal" },
+    { "name": "hairs" },
+    { "name": "wool" }
+  ],
+  "relations": [
+    {
+      "source": "Petya",
+      "target": "Masha",
+      "relation": "wife"
+    },
+    {
+      "source": "Petya",
+      "target": "Masha",
+      "relation": "loves"
+    },
+    {
+      "source": "Petya",
+      "target": "cat",
+      "relation": "loves"
+    },
+    {
+      "source": "Petya",
+      "target": "human",
+      "relation": "is_a"
+    },
+    {
+      "source": "Masha",
+      "target": "Petya",
+      "relation": "husband"
+    },
+    {
+      "source": "Masha",
+      "target": "human",
+      "relation": "is_a"
+    },
+    {
+      "source": "cat",
+      "target": "animal",
+      "relation": "is_a"
+    },
+    {
+      "source": "cat",
+      "target": "fish",
+      "relation": "eat"
+    },
+    {
+      "source": "cat",
+      "target": "milk",
+      "relation": "eat"
+    },
+    {
+      "source": "fish",
+      "target": "food",
+      "relation": "is_a"
+    },
+    {
+      "source": "milk",
+      "target": "food",
+      "relation": "is_a"
+    },
+    {
+      "source": "human",
+      "target": "hairs",
+      "relation": "has_a"
+    },
+    {
+      "source": "animal",
+      "target": "wool",
+      "relation": "has_a"
+    }
+  ]
+};
